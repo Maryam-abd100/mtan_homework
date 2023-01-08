@@ -12,8 +12,4 @@ def write_file(date,data):
      add_Task.write("\t\t\t\t")
      add_Task.write(data)
      add_Task.write("\n")
-     add_Task.close()
-     
-write_file([16,12],"study")
-write_file([3,5],"meeting with company")
-write_file([22,7],"sport")
+     add_Task.close()   
