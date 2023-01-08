@@ -15,6 +15,4 @@ def write_file(date,data):
      i=i+1
      if(i==7):
           i=0
-     add_Task.close()   
-
-write_file(5,"studt")     
+     add_Task.close()      
