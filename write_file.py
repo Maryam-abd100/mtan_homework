@@ -9,7 +9,7 @@ def write_file(date,data):
      d.insert(i,date)
      add_Task=open("Tasks.txt","a")
      add_Task.write(str(d[i]))
-     add_Task.write("\t\t\t\t")
+     add_Task.write("\n\t\t\t\t")
      add_Task.write(data)
      add_Task.write("\n")
      i=i+1
