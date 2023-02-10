@@ -21,6 +21,6 @@ def main ():
              main()
 
        else :
-             print("0")
+             print("PLEASE ! ENTER \"1\" OR \"2\"")
              main()
 main()             
