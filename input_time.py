@@ -9,11 +9,11 @@ import check_time
 def input_time():
      print("TIME : \n")
      time=input()
-     if(check_time(int(time))==1):
+     if(check_time.check_time(int(time))==1):
          print("THE TIME IS EXIST ....please edit time ")
          return 0
      else:    
          print("YOUR TASK : \n")
          task=input()
-         write_file(time,task)
+         write_file.write_file(time,task)
          return 1
