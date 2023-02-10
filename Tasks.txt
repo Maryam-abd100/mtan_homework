@@ -1,2 +1,4 @@
 8
 				sport
+2
+				study
