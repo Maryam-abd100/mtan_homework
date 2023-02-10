@@ -17,7 +17,9 @@ def main ():
              main()
 
        elif (mode=="2") :
-             print("2")
+             n=input_time.input_time()
+             while (n==0):
+                   n=input_time.input_time()
              main()
 
        else :
