@@ -13,7 +13,7 @@ import check_time
 def main ():
        mode=input("you need to : \n 1-show data \n 2-add data\n")
        if (mode=="1") :
-             print("1")
+             show_file.show_file()
              main()
 
        elif (mode=="2") :
