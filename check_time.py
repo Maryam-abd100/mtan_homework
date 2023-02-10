@@ -6,7 +6,7 @@
 import read_file
 def check_time(time):
      e=[]    
-     e=read_file()
+     e=read_file.read_file()
      g=[]
      i=len(g)
      for n in range(len(e)) :
