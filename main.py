@@ -5,4 +5,24 @@
 # 3- to add data make hime input time and data and check if time is exsit(if exsit ask him befor to edite them )
 # 4- sort data by time 
 # 5- edit file and return to 2 or 1
-print("Hello")
+import read_file
+import write_file
+import show_file
+import input_time
+import check_time
+def main ():
+       mode=input("you need to : \n 1-show data \n 2-add data\n")
+       if (mode=="1") :
+             show_file.show_file()
+             main()
+
+       elif (mode=="2") :
+             n=input_time.input_time()
+             while (n==0):
+                   n=input_time.input_time()
+             main()
+
+       else :
+             print("PLEASE ! ENTER \"1\" OR \"2\"")
+             main()
+main()             

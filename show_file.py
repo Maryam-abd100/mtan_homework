@@ -12,7 +12,7 @@
 import read_file
 def show_file():
      e=[]
-     e=read_file()
+     e=read_file.read_file()
      for n in range (len(e)):
          print(e[n])
          if(n%2==0):
