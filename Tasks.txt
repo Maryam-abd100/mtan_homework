@@ -2,3 +2,7 @@
 				sport
 2
 				study
+5
+				shopping
+7
+				doing project
